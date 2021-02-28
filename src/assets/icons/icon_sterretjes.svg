@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:#FFFFFF;}
+	.st2{clip-path:url(#SVGID_4_);}
+	.st3{clip-path:url(#SVGID_6_);}
+</style>
+<g id="Group_147" transform="translate(-361.526 4255.248) rotate(-90)">
+	<g id="Group_144" transform="translate(4255.496 362) rotate(90)">
+		<g>
+			<defs>
+				<rect id="SVGID_1_" x="9.2" y="84.4" width="59.8" height="31.7"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g id="Group_143" transform="translate(0 0)" class="st0">
+				<path id="Path_128" class="st1" d="M69.6,100.2c-16.5,0-29.9,7.4-29.9,16.5c0-9.1-13.4-16.5-29.9-16.5
+					c16.5,0,29.9-7.4,29.9-16.5C39.7,92.9,53.1,100.2,69.6,100.2"/>
+			</g>
+		</g>
+	</g>
+	<g id="Group_145" transform="translate(4255.496 411.017) rotate(90)">
+		<g>
+			<defs>
+				<rect id="SVGID_3_" x="20" y="84.4" width="61" height="31.7"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+			</clipPath>
+			<g id="Group_143-2" transform="translate(0 0)" class="st2">
+				<path id="Path_128-2" class="st1" d="M80.4,100.2c-16.5,0-29.9,7.4-29.9,16.5c0-9.1-13.4-16.5-29.9-16.5
+					c16.5,0,29.9-7.4,29.9-16.5C50.5,92.9,63.9,100.2,80.4,100.2"/>
+			</g>
+		</g>
+	</g>
+	<g id="Group_146" transform="translate(4255.496 460.035) rotate(90)">
+		<g>
+			<defs>
+				<rect id="SVGID_5_" x="32" y="84.4" width="59.8" height="31.7"/>
+			</defs>
+			<clipPath id="SVGID_6_">
+				<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+			</clipPath>
+			<g id="Group_143-3" transform="translate(0 0)" class="st3">
+				<path id="Path_128-3" class="st1" d="M91.3,100.2c-16.5,0-29.9,7.4-29.9,16.5c0-9.1-13.4-16.5-29.9-16.5
+					c16.5,0,29.9-7.4,29.9-16.5C61.3,92.9,74.7,100.2,91.3,100.2"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

@@ -31,8 +31,8 @@ export default {
 .active {
     font-weight: bold !important;
     position: relative;
-    padding-bottom: .4rem;
-    border-bottom: 2px solid;
+    padding-bottom: .6rem;
+    border-bottom: 3px solid;
     @apply border-primary;
 }
 </style>
