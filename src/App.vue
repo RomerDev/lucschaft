@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="">
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -9,24 +9,27 @@
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+* {
+  font-family: termina, sans-serif;
+  font-weight: 400 !important;
+  font-style: normal;
+  font-size: .9rem !important
 }
 
-#nav {
-  padding: 30px;
+h1, h2 {
+  font-family: termina, sans-serif;
+  font-weight: 700 !important;
+  font-style: normal;
+}
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+h1 {
+  font-size: 2rem !important;
+}
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+h2 {
+  font-size: 1.6rem !important;
+}
+h3 {
+  font-size: 1.2rem !important;
 }
 </style>
