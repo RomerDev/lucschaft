@@ -1,13 +1,18 @@
 <template>
   <div id="nav">
-      <router-link :to="`/${$i18n.locale}`">Home</router-link> |
-      <router-link :to="`/${$i18n.locale}/about`">About</router-link>
+      <!-- <router-link :to="`/${$i18n.locale}`">Home</router-link> -->
+      <LanguageSwitcher />
   </div>
 </template>
 
 <script>
+import LanguageSwitcher from '@/components/LanguageSwitcher.vue'
+
 export default {
-    name: 'Nav',
+  name: 'Nav',
+  components: {
+    LanguageSwitcher,
+  },
 }
 </script>
 

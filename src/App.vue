@@ -37,7 +37,13 @@ h1 {
 h2 {
   font-size: 1.6rem !important;
 }
+
 h3 {
   font-size: 1.2rem !important;
+  letter-spacing: .3rem;
+}
+
+a {
+  font-size: inherit !important;
 }
 </style>
