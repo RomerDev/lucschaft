@@ -1,24 +1,30 @@
 <template>
-  <div class="text-center flex flex-col justify-center">
+  <div>
 
-    <div>
-      <img class="h-44" src="../assets/icons/icon_over.svg" alt="dribbble"/>
-    </div>
+    <section class="text-center flex flex-col">
+      <div>
+        <img class="h-44" src="../assets/icons/icon_over.svg" alt="about"/>
+      </div>
+      <h1 class="text-primary logo">LUC SCHAFT</h1>
+      <h1 class="-mt-4 logo__underline">ALLROUND DESIGNER</h1>
+      <img class="h-36 -mt-14" src="../assets/icons/icon_sterretjes.svg" alt="stars"/>
 
-    <!-- <h1>{{ $t('message') }}</h1> -->
-    <h1 class="text-primary logo">LUC SCHAFT</h1>
-    <h1 class="-mt-4 logo__underline">ALLROUND DESIGNER</h1>
-    <img class="h-36 -mt-14" src="../assets/icons/icon_sterretjes.svg" alt="stars"/>
+      <a href="#projects" id="js-cancel">
+        <img class="h-16 absolute inset-center bottom-16" src="../assets/icons/icon_pijltje.svg" alt="arrow"/>
+      </a>
+      
 
-    <img class="h-16 absolute inset-center bottom-16" src="../assets/icons/icon_pijltje.svg" alt="arrow"/>
+      <div class="absolute bottom-16 right-16 flex space-x-10">
+        <img class="h-8" src="../assets/icons/icon_dribble.svg" alt="dribbble"/>
+        <img class="h-8" src="../assets/icons/icon_linkedin.svg" alt="linkedin"/>
+        <img class="h-8" src="../assets/icons/icon_instagram.svg" alt="instagram"/>
+      </div>
+    </section>
 
-    <div class="absolute bottom-16 right-16 flex space-x-10">
-      <img class="h-8" src="../assets/icons/icon_dribble.svg" alt="dribbble"/>
-      <img class="h-8" src="../assets/icons/icon_linkedin.svg" alt="linkedin"/>
-      <img class="h-8" src="../assets/icons/icon_instagram.svg" alt="instagram"/>
-    </div>
-
-    <About />
+    <section class="text-center flex flex-col">
+      <About />
+    </section>
+    
 
 
   </div>

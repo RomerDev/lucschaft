@@ -1,3 +1,6 @@
 {
-  "message": "heyyy i18n !!"
+  "projects": {
+    "title": "Recente Projecten",
+    "undertitle": "Een greep uit mijn werk"
+  }
 }

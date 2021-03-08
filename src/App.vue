@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="px-16 relative min-h-screen">
+  <div id="app" class="px-16">
     <Nav />
     <router-view/>
   </div>
@@ -52,5 +52,17 @@ a {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
+}
+
+section {
+  min-height: 100vh;
+  margin-top: 20rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+section:first-child {
+  min-height: calc(100vh - 110px);
+  margin-top: 0;
 }
 </style>
