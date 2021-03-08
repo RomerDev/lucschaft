@@ -1,7 +1,8 @@
 <template>
-  <div id="nav" class="px-10 py-14 justify-between">
-      <!-- <router-link :to="`/${$i18n.locale}`">Home</router-link> -->
-      <LanguageSwitcher />
+  <div id="nav" class="py-7 flex justify-between">
+      <img class="h-16" src="../assets/icons/icon_kruisje.svg" alt="Menu"/>
+      <img class="h-20 inset-center" src="../assets/logos/wit.svg" alt="Menu"/>
+      <LanguageSwitcher class="my-auto" />
   </div>
 </template>
 
@@ -15,6 +16,3 @@ export default {
   },
 }
 </script>
-
-<style scoped lang="scss">
-</style>

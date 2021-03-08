@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="">
+  <div id="app" class="px-16 relative min-h-screen">
     <Nav />
     <router-view/>
   </div>
@@ -28,6 +28,7 @@ h1, h2 {
   font-family: termina, sans-serif;
   font-weight: 700 !important;
   font-style: normal;
+  letter-spacing: .4rem;
 }
 
 h1 {
@@ -45,5 +46,11 @@ h3 {
 
 a {
   font-size: inherit !important;
+}
+
+.inset-center {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
 </style>
